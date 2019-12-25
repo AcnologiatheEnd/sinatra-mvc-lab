@@ -1,14 +1,14 @@
 class PigLatinizer
 def piglatinize(str)
     # Vowels to consider
-    vowels = ["a", "e", "i", "o", "u"]
+    vowels = ["a", "e", "i", "o", "u","A","E","I","O","U"]
     
     # Special cases to consider
     two_letter_consonants = ["ch", "sh", "qu", "th", "br"]
     three_letter_consonants = ["thr", "sch", "squ"]
 
     # Seperate each word from the phrase given
-    words = str.split(" ").downcase
+    words = str.split(" ")
     
     #Location for processed words
     result = []
