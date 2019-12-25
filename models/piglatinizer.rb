@@ -11,7 +11,7 @@ def translate(str)
     words = str.split(" ")
     
     #Location for processed words
-    result = [];
+    result = []
     
     
     
