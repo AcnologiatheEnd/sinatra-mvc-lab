@@ -7,6 +7,6 @@ class App < Sinatra::Base
   end
   
   post '/send' do 
-    
+    @info = params[]
   end
 end
