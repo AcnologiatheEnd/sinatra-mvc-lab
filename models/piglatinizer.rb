@@ -1,8 +1,7 @@
 class PigLatinizer
 def piglatinize(word)
 
-    @word = word
-    @words = user_input_text.split(" ")
+    @words = word.split(" ")
     result = []
 
     @words.each do |word|
