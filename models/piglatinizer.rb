@@ -1,3 +1,4 @@
+class PigLatinizer
 def translate(str)
     # Vowels to consider
     vowels = ["a", "e", "i", "o", "u"]
@@ -56,6 +57,7 @@ def translate(str)
     return result.join(" ")
 
 end #End of translate function
+end
 
 
 
