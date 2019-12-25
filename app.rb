@@ -8,6 +8,6 @@ class App < Sinatra::Base
   
   post '/send' do 
     @word = params[:word]
-    
+    Piglatinizer.new()
   end
 end
