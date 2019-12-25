@@ -17,6 +17,7 @@ def piglatinize(str)
     
     words.each do |word|
         # Words that start with a vowels
+        return word if %w[and an in].include?(word)
         if vowels.include? word[0]
             result.push word << 'way'
             
