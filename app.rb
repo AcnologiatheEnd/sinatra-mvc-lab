@@ -7,6 +7,7 @@ class App < Sinatra::Base
   end
   
   post '/send' do 
-    @info = params[]
+    @word = params[:word]
+    
   end
 end
