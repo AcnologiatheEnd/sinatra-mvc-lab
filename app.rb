@@ -7,7 +7,7 @@ class App < Sinatra::Base
   end
   
   post '/send' do 
-    @word = params[:word]
+    @word = params[:word].to_s
     @result = PigLatinizer.new.translate(@word)
   end
 end
