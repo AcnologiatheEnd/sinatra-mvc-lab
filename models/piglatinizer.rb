@@ -39,7 +39,7 @@ def piglatinize(str)
                 
             else
                 # Slice off first letter...
-                first_letter = word.slice!(0,2)
+                first_letter = word.slice!(0,1)
                 
                 # Add first letter to end of word with 'ay'
                 result.push word << first_letter << 'ay'
