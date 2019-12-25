@@ -1,5 +1,5 @@
 class PigLatinizer
-def translate(str)
+def piglatinize(str)
     # Vowels to consider
     vowels = ["a", "e", "i", "o", "u"]
     
