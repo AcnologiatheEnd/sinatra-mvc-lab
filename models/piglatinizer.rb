@@ -54,7 +54,7 @@ def translate(str)
     
     
     #Present the processed words as a single string
-    return result.join(" ")
+    result.join(" ")
 
 end #End of translate function
 end
