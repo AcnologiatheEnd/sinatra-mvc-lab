@@ -8,7 +8,7 @@ def piglatinize(str)
     three_letter_consonants = ["thr", "sch", "squ"]
 
     # Seperate each word from the phrase given
-    words = str.split(" ")
+    words = str.split(" ").downcase
     
     #Location for processed words
     result = []
